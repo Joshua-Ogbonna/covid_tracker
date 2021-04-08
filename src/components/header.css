@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 1rem;
+}
+.header h1 {
+    color: #4a47a3;
+    text-transform: inherit;
+    font-size: 25px;
+    font-weight: 800;
+}

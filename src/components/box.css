@@ -1,0 +1,22 @@
+.box__card {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.box__card > .card__content > .title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    /* margin-top: ; */
+    line-height: 20px;
+}
+.box__card > .card__content > h5 {
+    font-size: 15px;
+}
+.icon {
+    line-height: 0;
+}
+.box__card > .card__content > .total {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 30px;
+}

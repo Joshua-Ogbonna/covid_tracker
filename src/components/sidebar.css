@@ -1,0 +1,114 @@
+.sidebar {
+    padding: 2rem 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.card__element {
+    border-radius: 20px !important;
+}
+.table__detail {
+    font-size: 18px;
+    text-align: left;
+    color: gray;
+}
+
+.table__element {
+    overflow: auto;
+    height: 400px;
+    color: #6a5d5d;
+    margin: 10px 0;
+    background-color: #fff;
+    text-decoration: none !important;
+    font-size: 20px;
+    /* display: flex; */
+}
+.table__element::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+.table__element::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.table__element::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #000;
+}
+
+.table__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0 8px;
+    align-items: center;
+    /* min-height: 450px; */
+}
+
+.table__row {
+    margin: 20px 0;
+}
+.flag {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.country__details {
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.country__stats {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(20, 18, 18, 0.705);
+}
+
+
+
+/* Information Box Styling */
+.info {
+    background: #32e0c4;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.info__img > img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 10px;
+    left: 14px;
+}
+.info__img {
+    background: #fff;
+    border-radius: 50%;
+}
+.info__text {
+    margin-left: 30px;
+    color: #fff;
+    margin-top: 2rem;
+}
+.info__text h4 {
+    font-size: 17px;
+    font-family: 'Open Sans';
+    font-weight: 800;
+}
+.info__text p {
+    font-size: 13px;
+    line-height: 14px;
+}
+button {
+    padding: 5px 15px !important;
+    margin-top: 20px !important;
+    margin-left: -15px !important;
+    border: none !important;
+    background: rgba(7, 9, 31, 0.897) !important;
+}

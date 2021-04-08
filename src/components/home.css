@@ -1,0 +1,67 @@
+.card__div {
+    background: #4a47a3 !important;
+    height: 310px !important;
+    border-radius: 20px;
+    color: #fff !important;
+    font-weight: 700 !important;
+    font-size: 30px;
+    padding-left: 20px;
+    /* padding-top: 0px; */
+}
+.country__cases {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px !important;
+}
+.home__section {
+    font-family: 'Open Sans', sans-serif;
+    /* color: #fff; */
+    /* margin: 0 3rem; */
+}
+.card__div > .content {
+    font-size: 30rem !important;
+}
+.language {
+    font-size: 100px !important;
+}
+button {
+    color: #fff !important;
+    padding: 14px 40px !important;
+    /* margin: -20px 15px !important; */
+    position: absolute;
+    bottom: 25px;
+    left: 17px;
+    border: 1px solid #fff !important;
+    /* margin-top: 10px; */
+    border-radius: 30px !important;
+    text-transform: capitalize !important;
+}
+.today__cases,
+.death__cases,
+.recovered__cases,
+.active__cases {
+    border-radius: 20px;
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.svg__icon {
+    margin-right: 10px;
+}
+.today__cases {
+    background-color: #40bfc1;
+    color: #fff;
+}
+.death__cases {
+    background-color: #ff7171;
+    color: #fff;
+}
+.recovered__cases,
+.active__cases {
+    border: .5px solid rgb(221, 219, 219);
+    margin-top: 10px;
+    color: gray;
+}
+.first__row {
+    padding: 0 2rem;
+}
